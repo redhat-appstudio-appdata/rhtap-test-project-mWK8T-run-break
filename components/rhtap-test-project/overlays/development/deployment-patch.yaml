@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: rhtap-test-project
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/mcostant-tenant/rhtap-test-project/rhtap-test-project@sha256:5bc7d9cf5b0385d526e0466558fc27bc5d0353d37583d834bece264a0a4923a5
+        name: container-image
+        resources: {}
+status: {}
