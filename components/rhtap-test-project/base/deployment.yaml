@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: rhtap-test-project
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/mcostant-tenant/rhtap-test-project/rhtap-test-project@sha256:5bc7d9cf5b0385d526e0466558fc27bc5d0353d37583d834bece264a0a4923a5
         imagePullPolicy: Always
         name: container-image
         ports:
