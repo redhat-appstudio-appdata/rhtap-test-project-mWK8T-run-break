@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: rhtap-test-project
   name: rhtap-test-project
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
